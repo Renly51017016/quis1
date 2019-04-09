@@ -1,0 +1,21 @@
+# include <iostream.h>
+# include <conio.h>
+   main() {
+   char nama [30];
+   float jurusan,nk,nt1,nt2,nt3,nmid,nquis,nfinal,tnt,na;
+    cout<<"hitung nilai akhir"<<endl;
+    cout<<"nama mahasiswa =";cin>>nama;
+    cout<<"jurusan mahasiswa =";cin>>jurusan;
+    cout<<"nilai kehadiran =";cin>>nk;
+    cout<<"nilai tugas1 =";cin>>nt1;
+    cout<<"nilai tugas2 =";cin>>nt2;
+    cout<<"nilai tugas3 =";cin>>nt3;
+    cout<<"nilai mid =";cin>>nmid;
+    cout<<" nilai quis =";cin>>nquis;
+    cout<<" nilai final =";cin>>nfinal;
+    tnt =(nt1+nt2+nt3)/3
+    na =(20/100*nk)+(20/100*tnt)+(20/100*nmid)+(20/100*nquis)+(20/100*nilai final);
+    cout<<"siswa yang bernama"<<jurusan<<endl;
+    cout<<"jurusan"<<jurusan<<endl;
+    cout<<"nilai akhir"<<nk<<endl;
+    getch(); }
